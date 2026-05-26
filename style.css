@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: aliceblue;
+}
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: grey;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  background-color: lightgray;
+  padding: 10px 15px;
+}
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+}
+.card_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+article {
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+/* 문제 1. 화면의 너비가 600px 이하일 때, .card_section의 카드 배치를 3열에서 2열로 변경하세요.    */
+
+/* 문제 2. 화면의 너비가 300px 이하일 때, nav안의 링크들을 세로 방향으로 배치하시오. 그리고 .card_section의 카드 배치를 1열로 변경하세요.  */
+
+/* 제출은 
+      1. 작성한 코드(.html)
+      2. 문제 1, 2번에 작성한 css 코드 부분 캡쳐 이미지 두 개 
+      => 3개 제출! -> lms 
+       */
